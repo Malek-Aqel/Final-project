@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CITY HOTEL</string>
+    <string name="loginhere">Already Registered?\n<b>Login here.</b></string>
+    <string name="welcome">Welcome to our Hotel, this is a very high recommended Hotel from all our customers, we hope that our Hotel will give you the comfort you need to resume your life normally, best. You can see some information about our hotel in this page, and you can also see some pictures for different parts from our hotel</string>
+    <string name="sign">Our hotel is equipped with latest technologies that cab ensure the best survices for our customers, High quality rooms with all the thongs any one needs to feel comfortable, we have swimming pools for both mens and womens, special message rooms and alot of other survices, This is a short introduction about our Hotel, if yow want to know more you can create your own account now, and start enjoying our survices,<b><i> Log in or Register Now.</i></b></string>
+    <string name="details">Room Information and Details</string>
+    <string name="about_rooms">Here you can see all of our rooms in the Hotel, there is a vary rooms with different prices and areas that will be suitable for all our customers, From here you can see some information about each room, If this basic information matches what you want you can <b>Click On The Room</b> to see more Details and pics for the room.</string>
+</resources>
