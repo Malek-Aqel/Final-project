@@ -8,12 +8,12 @@ public class room implements Serializable {
 
     int id;
     String name;
-String disc;
-int price;
-int available;
-Date from;
-Date too;
-String area;
+    String disc;
+    int price;
+    int available;
+    Date from;
+    Date too;
+    String area;
 
 
     public room(int id, String name, String disc, int price, int available, Date from, Date too, String area) {

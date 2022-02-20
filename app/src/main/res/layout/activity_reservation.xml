@@ -57,16 +57,78 @@
                             android:fontFamily="@font/calibri"
                             android:hint="Your Name (first and last)"
                             android:inputType="text"
-                            android:maxLines="1"
                             android:textColor="@android:color/black"
-                            android:textSize="16sp" />
+                            android:textSize="22sp" />
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:paddingLeft="65dp"
+                                android:layout_height="match_parent"
+                                android:fontFamily="@font/gotham"
+                                android:text="From Date:"
+                                android:textColor="@android:color/black"
+                                android:textSize="16sp" />
+
+                        <Button
+                            android:id="@+id/datePickerButton"
+                            android:layout_width="250dp"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:text="JAN 01 2020"
+                            android:textSize="30sp"
+                            android:textColor="@color/black"
+                            style="?android:spinnerStyle"
+                            android:layout_marginTop="10dp"
+                            android:onClick="openDatePicker"/>
+
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="40dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:paddingLeft="65dp"
+                                android:fontFamily="@font/gotham"
+                                android:text="To Date:"
+                                android:textColor="@android:color/black"
+                                android:textSize="16sp" />
+
+
+                        <Button
+                            android:id="@+id/datePickerButton2"
+                            android:layout_gravity="center"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:text="JAN 01 2020"
+                            android:textSize="30sp"
+                            android:textColor="@color/black"
+                            style="?android:spinnerStyle"
+                            android:layout_marginTop="10dp"
+                            android:onClick="openDatePicker2"/>
+
+                        </LinearLayout>
+
 
 
                         <EditText
                             android:id="@+id/etfrom"
+                            android:visibility="gone"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:drawablePadding="16dp"
                             android:fontFamily="@font/calibri"
                             android:hint="From Date"
                             android:inputType="date|time"
@@ -77,9 +139,9 @@
 
                         <EditText
                             android:id="@+id/etto"
+                            android:visibility="gone"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:drawablePadding="16dp"
                             android:fontFamily="@font/calibri"
                             android:hint="To Date"
                             android:inputType="date|time"
